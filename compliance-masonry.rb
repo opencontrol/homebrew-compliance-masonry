@@ -2,9 +2,9 @@
 class ComplianceMasonry < Formula
   desc "Compliance Masonry is a command-line interface (CLI) that allows users to construct certification documentation using the OpenControl Schema."
   homepage "https://github.com/opencontrol/compliance-masonry"
-  url "https://github.com/opencontrol/compliance-masonry/releases/download/v1.1.6/compliance-masonry_1.1.6_darwin_amd64.tar.gz"
-  version "1.1.6"
-  sha256 "4993ea0adcd563b78e040e358dbb8f67b1389d2ec6dcedb214c1cfa520c79eb6"
+  url "https://github.com/opencontrol/compliance-masonry/releases/download/v1.2.0/compliance-masonry_1.2.0_darwin_amd64.tar.gz"
+  version "1.2.0"
+  sha256 "cd48813f7120730cb0b4fbc2490a28c4a448319fe63e517bc791861d62b558a9"
 
   def install
     bin.install "compliance-masonry", "masonry"
