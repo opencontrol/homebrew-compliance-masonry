@@ -4,7 +4,7 @@ class ComplianceMasonry < Formula
   homepage "https://github.com/opencontrol/compliance-masonry"
   url "https://github.com/opencontrol/compliance-masonry/releases/download/v1.2.1/compliance-masonry_1.2.1_darwin_amd64.tar.gz"
   version "1.2.1"
-  sha256 "cc5aa043ac8b7d3d31e813673b24483899ed33c78f0ac383e966d02c75b01d5f"
+  sha256 "772275b58068c2265d8ee73e2d9de344a5cb18e3f155415a0e306779fea02ed5"
 
   def install
     bin.install "compliance-masonry", "masonry"
